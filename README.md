@@ -6,8 +6,8 @@ It's designed specifically for "portable applications"
 containing the binary and resources, and don't have an installer).
 
 ## Why
-1. Don't let programs clutter up your home directory with their files
-1. Don't let programs accidentally delete files due to typo's in their code
+Prevents apps from cluttering up your home directory with their
+configuration files.
 
 ## How
 1. Let's say you have a program that lives in the directory `~/Apps/SomeProgram`
@@ -20,4 +20,4 @@ your program in the sandbox.
 parameters. For example, replace `--unshare-net` with `--share-net` to
 allow the sandboxed program to access the internet.
 1. Launch the sandboxed program by running
-`~/Apps/SomeProgram.bwrap-sandbox/run.sh`
+`~/Apps/SomeProgram.bwrap-sandbox/run.sh
