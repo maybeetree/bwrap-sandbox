@@ -20,4 +20,4 @@ your program in the sandbox.
 parameters. For example, replace `--unshare-net` with `--share-net` to
 allow the sandboxed program to access the internet.
 1. Launch the sandboxed program by running
-`~/Apps/SomeProgram.bwrap-sandbox/run.sh
+`~/Apps/SomeProgram.bwrap-sandbox/run.sh`
